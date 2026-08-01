@@ -1,7 +1,27 @@
 aid: riskpulse
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/riskpulse.png
 name: RiskPulse
-description: RiskPulse is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  RiskPulse was a supply chain risk and weather-intelligence company (also known
+  by its Stormpulse brand) that scored and forecast weather, transit, and
+  logistics disruption risk across supply chain networks. It was acquired by
+  Everstream Analytics; the riskpulse.com and stormpulse.com domains now
+  301-redirect to everstream.ai, where the capability lives on as Everstream's
+  Weather Intelligence and Analytics product. As of this enrichment pass there is
+  no standalone RiskPulse public API, developer portal, documentation, SDK, or
+  discovery surface, and Everstream exposes no public API either. This profile is
+  retained in the API Evangelist network as a historical company lead.
 url: https://raw.githubusercontent.com/api-evangelist/riskpulse/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,19 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: everstream-analytics
+x-redirects-to: https://www.everstream.ai/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Supply Chain
+- Weather
+- Risk
+- Analytics
+- Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,8 @@ maintainers:
 common:
 - type: Website
   url: https://stormpulse.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
