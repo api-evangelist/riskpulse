@@ -34,6 +34,9 @@ description: >-
   discovery surface, and Everstream exposes no public API either. This profile is
   retained in the API Evangelist network as a historical company lead.
 url: https://raw.githubusercontent.com/api-evangelist/riskpulse/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "As of this enrichment pass there is no standalone RiskPulse public API, developer portal, documentation, SDK, or discovery surface, and Everstream exposes no public API either."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
